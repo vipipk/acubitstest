@@ -1,0 +1,25 @@
+{
+  "name": "accubits",
+  "version": "1.0.0",
+  "description": "Machine Test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "Vipin P K",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "http-status": "^1.5.0",
+    "mongoose": "^5.11.15",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "express-validation": "^1.0.2",
+    "joi": "^14.0.0"
+  }
+}
